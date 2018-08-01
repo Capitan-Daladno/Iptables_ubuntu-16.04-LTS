@@ -1,8 +1,8 @@
 # iptables
 # Generataed by iptables-save v1.6.0 on Wed Aug 1 05:22:12 2018
-*filter*
-:INPUT DROP [5:204]
-:FORWARD DROP [0:0]
+# **filter # убрать одну звезду 
+# :INPUT DROP [5:204]
+# :FORWARD DROP [0:0]
 :OUTPUT ACCEPT [123:11877]
 :f2b-ssh - [0:0]
 f2b-sshd - [0:0]

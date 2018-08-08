@@ -18,7 +18,7 @@
 -A INPUT -p tcp -m tcp --tcp-flags FIN,SYN,RST,PSH,ACK,URG FIN,SYN,RST,PSH,ACK,URG -j DROP
 -A INPUT -i lo -j ACCEPT
 -A UNPUT -p tcp -m tcp --dport 22 -j ACCEPT
--A INPUT -p tcp -m tcp --dport 228 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport "какой-то порт" -j ACCEPT
 -A f2b-ssh -j RETURN
 -A f2b-ssh -j RETURN
 -A f2b-ssh -j RETURN
